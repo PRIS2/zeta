@@ -16,7 +16,7 @@ def escribirIntervalo(self):
 def antes(self, otro):
     return self.getInicio() < otro.getInicio()
 
-def antes(self, otro):
+def antesI(self, otro):
     return not antes(self, otro)
 
 def igual(self, otro):
